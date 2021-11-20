@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey page</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 id="title">Le Blanc Coffee Survey Form</h1>
+
+  <div class="cup-coffee"></div>
+  <div class="coffee-liquid"></div>
+  <div class="round-zone"></div>
+  <div class="grab-zone"></div>
+  
+  <p id="description"><strong>Thank you for sharing with us about your coffee preferences! You can take your time filling this form.</strong></p>
+  <form id="survey-form">
+    <div>
+      <label id="name-label" for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" class="form-control" required>
+    </div>
+    <div>
+      <label id="email-label" for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" class="form-control" required>
+    </div>
+    <div>
+      <label id="number-label" for="number">Age (optional)</label>
+      <input type="number" id="number" placeholder="Enter your age" min="0" max="99" class="form-control">
+    </div>
+    <div>
+      <p id="p-role">Which of the following options describes (or aproximates to) your current role?</p>
+      <select id="dropdown" name="current-role" class="dropdown-input" required>
+        <option disabled selected value>Let me think...</option>
+        <option value="student">Student</option>
+        <option value="fulltime-job">Fulltime Job</option>
+        <option value="fulltime-learner">Fulltime Learner</option>
+        <option value="secret">It's a secret</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <div>
+      <p id="p-favorite1">Which of the following selection would you consider <strong>your favorite</strong></p>
+      <p id="p-favorite2">(or at least your <em>to-go</em>) cup of coffee?</p>
+      <div for="espresso" class="fav-coffee">
+        <input type="radio" name="favorite-cup" value="espresso" id="espresso-radio" class="input-radio" checked>Espresso
+      </div>
+      <div for="americano" Class="fav-coffee">
+        <input type="radio" name="favorite-cup" value="americano" class="input-radio">Americano
+      </div>
+      <div for="cappuccino" class="fav-coffee">
+        <input type="radio" name="favorite-cup" value="cappuccino" class="input-radio">Cappuccino
+      </div>
+      <div for="mocha" class="fav-coffee">
+        <input type="radio" name="favorite-cup" value="mocha" class="input-radio">Mocha
+      </div>
+      <div for="any-joe" class="fav-coffee">
+        <input type="radio" name="favorite-cup" value="any-joe" class="input-radio">Any cup of joe suits me
+      </div>
+      <!-- To add another radio button, keep coding ABOVE -->
+    </div>
+    <p id="p-additions">Which of the following additions you usually add to your coffee?</p>
+    <div for="condensed-milk" class="fav-addition">
+      <input type="checkbox" name="additions" value="flavored-milk" class="input-checkbox">Flavored condensed milk
+    </div>
+    <div for="cinnamon" class="fav-addition">
+      <input type="checkbox" name="additions" value="cinnamon" class="input-checkbox">Cinnamon
+    </div>
+    <div for="sugar" class="fav-addition">
+      <input type="checkbox" name="additions" value="sugar" class="input-checkbox">Sugar
+    </div>
+    <div for="low-sugar" class="fav-addition">
+      <input type="checkbox" name="additions" value="low-sugar" class="input-checkbox">Low calorie sugar
+    </div>
+    <div for="none" class="fav-addition">
+      <input type="checkbox" name="additions" value="none" class="input-checkbox">None
+    </div>
+    <p id="p-suggestions">Have any suggestions? We would love to hear them!</p>
+    <textarea id="comments" name="comments" placeholder="Please type your suggestions here..."></textarea>
+    <div>
+      <button type="submit" id="submit">Submit!</button>
+    </div>
+  </form>
+</body>
+
+</html>
