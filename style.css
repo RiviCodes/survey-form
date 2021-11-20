@@ -1,0 +1,205 @@
+/* CSS */
+
+body {
+  text-align: center;
+  background-color: #f8f2ed;
+}
+
+#title {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 42px;
+  color: #f8f2ed;
+  background-color: #c68c53;
+}
+
+#description {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: #6f4a2a;
+}
+
+#name-label,
+#email-label {
+  padding: 10px 180px 10px 0px;
+  margin: 0px 0px 0px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  color: #5c3e23;
+}
+
+#number-label {
+  padding: 10px 105px 10px 0px;
+  margin: 0px 0px 0px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  color: #5c3e23;
+}
+
+#name,
+#email,
+#number {
+  padding: 1px 1px 1px 5px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 230px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+#p-role {
+  margin: 20px 0px 17px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #5c3e23;
+}
+
+.dropdown-input {
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+#p-favorite1 {
+  margin: 19px 0px 0px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #5c3e23;
+}
+
+#p-favorite2 {
+  margin: 0px 0px 16px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #5c3e23;
+}
+
+#p-additions {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #5c3e23;
+}
+
+#p-suggestions {
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #5c3e23;
+}
+
+#comments {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+#submit {
+  padding: 7px 12px 7px 12px;
+  margin: 10px 0px 0px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #f8f2ed;
+  background-color: #a6713f;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #c08b59;
+  transition: background-color 0.5s;
+}
+
+.form-control {
+  margin: 5px 0px 10px 0px;
+  display: flex;
+}
+
+.input-checkbox {
+  margin: 8px 5px 4px 5px;
+}
+
+.fav-coffee {
+  margin: 0px 0px 0px 365px;
+  padding: 4px 0px 0px 0px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-size: 15x;
+  color: #3a2613;
+}
+
+.fav-addition {
+  margin: 0px 0px 0px 365px;
+  padding: 4px 0px 0px 0px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #3a2613;
+}
+
+.cup-coffee {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  right: 0;
+  bottom: 590px;
+  left: 585px;
+  /* Give shape to the cup */
+  width: 55px;
+  height: 55px;
+  background-color: transparent;
+  border-radius: 55%;
+  box-shadow: 0px 27px 0px 2px #ead8c8;
+}
+
+.round-zone {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  right: 0;
+  bottom: 547px;
+  left: 585px;
+  /* Give additional form to the cup */
+  width: 57.1px;
+  height: 28px;
+  background-color: transparent;
+  border-radius: 100%;
+  box-shadow: 0px -3px 0px 0px #ead8c8;
+}
+
+.grab-zone {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  right: 0px;
+  bottom: 547px;
+  left: 640px;
+  /* Give form to the side of the coffee */
+  width: 30px;
+  height: 10px;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 6px 0.9px 0px 2px #ead8c8;
+}
+
+.coffee-liquid {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  right: 0;
+  bottom: 610px;
+  left: 585px;
+  /* Give form to the coffee/liquid */
+  width: 60px;
+  height: 28px;
+  background-color: transparent;
+  border-radius: 100%;
+  box-shadow: 0px 27px 0px -2px #6f4a2a;
+}
+
+/* Imported fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
