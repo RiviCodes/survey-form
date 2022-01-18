@@ -1,6 +1,6 @@
 # Survey Form
 
-[Live on GitHub Pages](https://rivicodes.github.io/survey-form/) using GitHub Pages.
+[Live on GitHub Pages](https://rivicodes.github.io/survey-form/)
 
 _Basic survey page made from zero. This project's objective is to code a survey page aimed to aid a survey sent to customers. An attempt was made to create a (ugly) cup off coffee using only CSS. Results did not suffice, but helped me gain some experience on creating CSS shapes. Aside that, survey's HTML5 elements should work fine.
 
